@@ -147,7 +147,7 @@ To quit `emacs`, the command sequence is:
     ctrl + x, c
 
 
-Most of the above commands are not actually part of `bash`, but are programs that can be run from within a `bash` shell. So how does `bash` know about these scripts?
+[cheat sheet](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
 
 ### vim
 
@@ -177,6 +177,8 @@ To quit without saving:
 
 Try `vimtutor` to teach yourself.
 
+[cheat sheet](https://vim.rtorr.com)
+
 ## Environment variables
 
 All shells allow setting variables that store values. There are also a number of special variable names that control aspects of the shell. To set an environment variable, you just have to set some value to a name with the = operator:
@@ -190,6 +192,7 @@ We can dump the contents of this variable with the `echo` command:
 
 Note that when I want to work with an env variable (after setting), the name is prefaced with a dollar sign!
 
+Most of the above commands are not actually part of `bash`, but are programs that can be run from within a `bash` shell. 
 So how does your `bash` shell know about all of those scripts (like `cat`) that aren't part of the `bash` shell? Well, there is a special environment variable called `$PATH`, and this tells your shell where to look for program names when you type something in the terminal prompt. Dump the contents of this variable:
 
     $ echo $PATH
