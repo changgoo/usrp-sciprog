@@ -129,8 +129,6 @@ Graphical text editors such as ([Atom](https://atom.io/)) have a bunch of nifty,
 * `nano`
 * `sublime`
 
-![image](https://user-images.githubusercontent.com/5942431/121088156-4f649f80-c7b3-11eb-8cb9-de5bed681a13.png)
-
 ### emacs
 
 If you go with `emacs` (that's what I use occasionally), the most important things to know are how to save, and how to quit. To open `emacs`, type the command name with a filename. For example, to edit a file "test.txt" in the current directory:
@@ -153,6 +151,8 @@ Most of the above commands are not actually part of `bash`, but are programs tha
 
 ### vim
 
+![image](https://user-images.githubusercontent.com/5942431/121088156-4f649f80-c7b3-11eb-8cb9-de5bed681a13.png)
+
 Another useful interpreter to know is `vim`. In particular since we might have to use it later today. 
 
 To open a file with vim: 
@@ -172,6 +172,9 @@ To quit without saving:
 ```
     :q!
 ```
+
+Try `vimtutor` to teach yourself.
+
 ## Environment variables
 
 All shells allow setting variables that store values. There are also a number of special variable names that control aspects of the shell. To set an environment variable, you just have to set some value to a name with the = operator:
