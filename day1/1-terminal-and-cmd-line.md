@@ -112,7 +112,8 @@ The most common commands I use in a shell are:
 * `touch` - create an empty file with the specified name
 * `ln -s` - create a "soft" link from one file to a new file in the current directory
 
-A few more, ordered by application, are listed in this [cheat sheet](https://www.dropbox.com/s/k7athu9i8lmmeln/Linux%20Cheat%20Sheet%20David%20Relyea.pdf).
+A few more, ordered by application, are listed in this [cheat sheet](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)
+<!-- (https://www.dropbox.com/s/k7athu9i8lmmeln/Linux%20Cheat%20Sheet%20David%20Relyea.pdf). This link is broken. -->
 
 For the following part, we will use one more command, which allows us to create a directory 'mkdir'. From your home directory create a work directory and move to this directory:
 	
@@ -127,6 +128,8 @@ Graphical text editors such as ([Atom](https://atom.io/)) have a bunch of nifty,
 * `vim`
 * `nano`
 * `sublime`
+
+![image](https://user-images.githubusercontent.com/5942431/121088156-4f649f80-c7b3-11eb-8cb9-de5bed681a13.png)
 
 ### emacs
 
