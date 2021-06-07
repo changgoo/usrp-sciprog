@@ -160,7 +160,9 @@ To open a file with vim:
     vim test.txt
 ```
 
-To close and save a file hit `Ctrl - C` and enter: 
+To add something, hit `i` and type.
+
+To close and save a file hit `Ctrl - C` or `esc` and enter: 
 ```
     :wq 
 ```
