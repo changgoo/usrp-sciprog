@@ -220,9 +220,12 @@ For example, in my profile file, I have the following lines (amongst others):
 
 The first two lines tell the shell to color the output of `ls` commands.
 
-The last line runs the "`source`" command on the file `~/.prompt`. `source` will execute the contents of the specified file, so this just executes the file `~/.prompt`. The contents of this file [can be seen here](https://github.com/adrn/dotfiles/blob/master/bash/prompt): this changes the color and content of my terminal prompt to add some nifty features.
+The last line runs the "`source`" command on the file `~/.prompt`. `source` will execute the contents of the specified file, so this just executes the file `~/.prompt`. The contents of this file [can be seen here](https://github.com/adrn/dotfiles/blob/master/bash/prompt): this changes the color and content of my terminal prompt to add some nifty features. If you want to download and use it, try this on your home directory:
 
-
-
+```
+cd
+wget https://raw.githubusercontent.com/adrn/dotfiles/master/bash/prompt
+mv prompt .prompt
+``` 
 
 
