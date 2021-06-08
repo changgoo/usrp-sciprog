@@ -59,6 +59,23 @@ For instance:
 * 5 = 101 -> `r-x`, 
 * 7 = 111 -> `rwx`.
 
+To change the owner of a file, use `chown` command:
+```
+chown _user_name_that_owns_the_file _file_name
+```
+
+To change the group that the file belongs, use `chgrp` command:
+```
+chgrp _group_name_that_owns_the_file _file_name
+```
+
+For more information, alway use `man`, e.g.,
+
+```
+man chmod
+man chown
+```
+
 End of aparte.
 
 An advantage of commad line is that we can easily visualise hidden files that start with `.`:
